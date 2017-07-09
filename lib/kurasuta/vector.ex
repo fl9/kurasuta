@@ -29,7 +29,6 @@ defmodule Kurasuta.Vector do
       [2.0, 3.0, 4.0]
 
   """
-  # TODO fall c = 0
   @spec div(vector, number) :: vector
   def div(x, c) do
     x |> Enum.map(&(&1/c))

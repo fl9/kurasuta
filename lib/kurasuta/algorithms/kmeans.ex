@@ -10,8 +10,8 @@ defmodule Kurasuta.Algorithms.Kmeans do
 
   @type data :: list(Vector.vector)
   @type params :: map
-  @type centers :: list(number)
-  @type cluster :: list(number)
+  @type centers :: list(Vector.vector)
+  @type cluster :: list(Vector.vector)
   @type clusters :: list(cluster)
 
   @doc """
